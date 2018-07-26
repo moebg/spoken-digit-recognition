@@ -21,7 +21,7 @@
 
 ## Overview
 
-Spoken Digit Recognition is an **isolated word recognition** system that transcribes individual spoken numbers.
+Spoken Digit Recognition is an **isolated word recognition** system that transcribes individual spoken numbers from 0-9.
 
 ## Dataset
 

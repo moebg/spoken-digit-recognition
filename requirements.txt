@@ -1,0 +1,4 @@
+tflearn==0.3.2
+numpy==1.14.3
+librosa==0.6.1
+tensorflow==1.8.0

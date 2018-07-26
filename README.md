@@ -40,9 +40,18 @@ The model consists of:
 
 Model is trained on 300 epochs.
 
+## Improvements and Features to Add
+
+* The dataset needs more different types of speakers include women, and people with different accents in order for the system to work well in the world
+* The model itself can be improved
+* Use a better training/test strategy because the current model doesn't really perform as well as it should, it misses and gets right sometimes, nothing that should be used in production
+* Have an interface to use your own voice to test out the model, make an easy front-end to interact with the model
+
+Basically this was an experiment for me to see how to build a speech recognition system that only detects spoken digits, and so far it has a long way to go in terms of improving the performance.
+
 ## Usage
 
-
+* `python spoke_digit.py` in order to run the program. It will train, and test the model on a test .wav file.
 
 ## Dependencies
 

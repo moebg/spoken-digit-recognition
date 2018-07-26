@@ -10,8 +10,8 @@
 
 * [Overview](#overview)
 * [Dataset](#dataset)
-* [Model](#model)
-* [Results](#results)
+* [Model and Training](#model-and-training)
+* [Improvements and Features to Add](#improvements-and-features-to-add)
 * [Usage](#usage)
 * [Dependencies](#dependencies)
 * [References](#references)
@@ -42,12 +42,13 @@ Model is trained on 300 epochs.
 
 ## Improvements and Features to Add
 
-* The dataset needs more different types of speakers include women, and people with different accents in order for the system to work well in the world
+* The dataset needs more different types of speakers including different genders, and people with different accents in order for the system to work well in the world
 * The model itself can be improved
-* Use a better training/test strategy because the current model doesn't really perform as well as it should, it misses and gets right sometimes, nothing that should be used in production
+* Use a better training/test strategy
 * Have an interface to use your own voice to test out the model, make an easy front-end to interact with the model
+* Improve model performance
 
-Basically this was an experiment for me to see how to build a speech recognition system that only detects spoken digits, and so far it has a long way to go in terms of improving the performance.
+Basically this was an experiment for me to see how to build a speech recognition system that only detects spoken digits.
 
 ## Usage
 
@@ -64,7 +65,7 @@ Basically this was an experiment for me to see how to build a speech recognition
 
 * [Long Short-Term Memory Recurrent Neural Network Architectures for Large Scale Acoustic Modeling](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf)
 * [Free Spoken Digit Dataset](https://github.com/Jakobovski/free-spoken-digit-dataset)
-* [Hands-on Natural Language Programming w/ Python](https://www.amazon.com/Hands-Natural-Language-Processing-Python-ebook/dp/B07D6KYQYP) by 
+* [Hands-on Natural Language Programming w/ Python](https://www.amazon.com/Hands-Natural-Language-Processing-Python-ebook/dp/B07D6KYQYP) by Rajesh Arumugam, Rajalingappaa Shanmugamani
 * [Digit Recognition from Sound](https://github.com/adhishthite/sound-mnist)
 
 ## Attribution
